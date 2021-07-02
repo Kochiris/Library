@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "Harry Potter i Komnata Tajemnic",
+    "Author": "J.K. Rowling",
+    "Publisher": "Media Rodzina",
+    "Id": 0,
+    "isEditing": false,
+    "isCompleted": false,
+    "showInfo": false
+  },
+  {
+    "Name": "Harry Potter i Czara Ognia",
+    "Author": "J.K. Rowling",
+    "Publisher": "Media Rodzina",
+    "Id": 1,
+    "isEditing": false,
+    "isCompleted": false,
+    "showInfo": false
+  },
+  {
+    "Name": "Harry Potter i Kamień Filozficzny",
+    "Author": "J.K. Rowling",
+    "Publisher": "Media Rodzina",
+    "Id": 2,
+    "isEditing": false,
+    "isCompleted": false,
+    "showInfo": false
+  }
+]

@@ -1,0 +1,59 @@
+.hide {
+  animation: hide 2s ease !important;
+  transition: display none 2s ease;
+  display: none;
+}
+.show {
+  animation: show 0.5s ease;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.arrow {
+  animation: spin 0.5s ease;
+}
+.up {
+  animation: spin 0.5s ease;
+}
+
+.start {
+  animation: none;
+}
+body {
+  background: linear-gradient(135deg, #A4161A 0%, #0B090A 100%);
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 80vw;
+  min-height: 600px;
+  background: #0B090A;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 80px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  margin: 32px 0;
+  color: rgb(129, 126, 126);
+  font-size: 44px;
+}

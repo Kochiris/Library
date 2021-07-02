@@ -1,0 +1,8 @@
+.buttons-container {
+  display: flex;
+  margin-left: 15px;
+}
+
+.custom-icon {
+  margin-left: 4px !important;
+}

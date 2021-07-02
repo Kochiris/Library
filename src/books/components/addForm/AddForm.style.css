@@ -1,0 +1,45 @@
+.book-button {
+  margin: auto auto 6px auto;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(180deg, #660708 0%, #0B090A 100%);
+  color: #fff;
+  text-transform: capitalize;
+  width: 15%;
+  font-size: 30px;
+}
+
+.book-form {
+  margin-bottom: 32px;
+}
+
+.book-input {
+  margin: auto auto 10px auto;
+  padding: 14px 32px 14px 16px;
+  border-radius: 10px;
+  border: 2px solid #660708;
+  outline: none;
+  width: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+}
+
+.todo-input::placeholder {
+  color: #6e6e6e;
+}
+
+.todo-input.edit {
+  border: 2px solid #38aecc;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-content: center;
+}
